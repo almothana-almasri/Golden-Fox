@@ -1,0 +1,118 @@
+.homeS {
+  background: linear-gradient(to right,#E5C27C, #fcfaee );
+  /* background: linear-gradient(to bottom, rgba(255, 223, 186, 0.8), rgba(255, 223, 186, 0.4)); */
+  /* background: linear-gradient(to bottom, rgba(229, 194, 124, 0.6), rgba(255, 223, 186, 0.4)); */
+  /* background: radial-gradient(closest-side at top right, rgba(229, 194, 124, 0.6), rgba(255, 223, 186, 0.4)); */
+}
+
+.featured-products {
+  padding: 3rem 0;
+  /* text-align: center; */
+  /* background: linear-gradient(to bottom, #E5C27C, #02000E); */
+
+}
+
+.text1 {
+  /* padding: 3rem 0; */
+  /* text-align: center; */
+  text-align: center;
+  font-size: 130%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+hr {
+
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+
+
+}
+
+.product {
+
+  border-radius: 5px;
+  border: 1px solid #292928;
+  padding: 1rem;
+  text-align: left;
+  max-width: 300px;
+  /* box-shadow: 2px 5px rgb(234, 234, 234); */
+  width: 300px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product:hover {
+  box-shadow: 10px 15px rgb(35, 31, 16, 0.1);
+  transform: translateY(-10px);
+  /* border-color: rgb(255, 255, 255); */
+}
+
+.productde {
+  text-decoration: none;
+
+
+}
+
+.product h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  margin-left: 0.2rem;
+  /* text-align: center; */
+
+}
+
+
+
+.product p {
+  font-size: 1rem;
+  color: #338610;
+  margin-left: 0.2rem;
+  /* text-align: center; */
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+
+
+
+
+.heartButton {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+
+
+.h_p_h {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* .clickable-svg {
+    cursor: pointer;
+    fill: #e74c3c;
+  }
+  
+  .clicked rect {
+    fill: #e74c3c; /* Change this color as needed */

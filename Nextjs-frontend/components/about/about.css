@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
+.whole-about {
+    background: linear-gradient(to top, rgba(255, 223, 186, 0.8), rgba(255, 223, 186, 0.4));
+}
+
+.aboutbody {
+    align-items: center;
+    /* background:  #F6F1D4 ; */
+    display: flex;
+    font-family: "Merriweather", serif;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    /* Adjust as needed to control the spacing between cards */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    /* Add spacing between rows */
+}
+
+.person {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+}
+
+.container {
+    border-radius: 50%;
+    height: 312px;
+    -webkit-tap-highlight-color: transparent;
+    transform: scale(0.48);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 400px;
+}
+
+.container:after {
+    background-color: #f2f2f2;
+    content: "";
+    height: 10px;
+    position: absolute;
+    top: 390px;
+    width: 100%;
+}
+
+.container:hover {
+    transform: scale(0.54);
+}
+
+.container-inner {
+    clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
+    position: relative;
+    transform-origin: 50%;
+    top: -200px;
+}
+
+.circle {
+    background-color: #fee7d3;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 380px;
+    left: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 210px;
+    width: 380px;
+}
+
+.img {
+    pointer-events: none;
+    position: relative;
+    transform: translateY(20px) scale(1.15);
+    transform-origin: 50% bottom;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container:hover .img {
+    transform: translateY(0) scale(1.2);
+}
+
+.img1 {
+    left: 22px;
+    top: 164px;
+    width: 340px;
+}
+
+.img2 {
+    left: -46px;
+    top: 174px;
+    width: 444px;
+}
+
+.img3 {
+    left: -16px;
+    top: 144px;
+    width: 466px;
+}
+
+.divider {
+    background-color: #ca6060;
+    height: 1px;
+    width: 160px;
+}
+
+.name {
+    color: #404245;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.title {
+    color: #6e6e6e;
+    font-family: arial;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+.p1_A {
+    /* background:  #F6F1D4 ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 40px;
+    /* font-family: "Merriweather", serif; */
+    font-family: 'Raleway', sans-serif;
+
+
+
+
+
+
+}
+
+
+
+
+.GoldenFox {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+    /* Add some spacing between the image and text */
+    font-family: 'Raleway', sans-serif;
+
+
+
+
+
+
+}
+
+.p2_A {
+    /* background:  #F6F1D4 ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 40px;
+    /* font-family: "Merriweather", serif; */
+    /* font-family: "Merriweather", serif; */
+}
+
+.vision1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vision {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aboutline {
+    background-image: linear-gradient(90deg, rgb(58, 47, 13), rgb(102, 95, 73), rgba(102, 95, 73, 0.055));
+    height: 0.1rem;
+    width: 55%;
+    display: inline-block;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+.aboutheader {
+    color: rgb(70, 43, 22);
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 81, 66);
+    font-size: 20px;
+}
+
+.aboutline1 {
+    background-image: linear-gradient(90deg, rgb(58, 47, 13), rgb(102, 95, 73), rgba(102, 95, 73, 0.055));
+    height: 0.1rem;
+    width: 55%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 140px;
+    display: inline-block;
+
+}
+
+.bbb {
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: lighter;
+    /* align-items: center; */
+    padding: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* height: 400px; */
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    /* Adjust the font size as needed */
+    color: #404245;
+    transition: color 0.3s ease;
+
+}
+
+.links img.link4 {
+    width: 40px;
+    /* Adjust the icon size as needed */
+    height: 40px;
+    /* Adjust the icon size as needed */
+}
+
+.links a:hover {
+    color: #7d0303;
+    /* Change this color to your desired hover color */
+}
+
+/* .subperson{
+    height: 400px;
+} */
+.aboutbox,
+.visionbox {
+    /* background-color: #ca6060; */
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.aboutheader1 {
+    color: rgb(70, 43, 22);
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 81, 66);
+    font-size: 20px;
+}
+
+.visionbox {
+    margin-bottom: 70px;
+}
+
+.aboutbox {
+    margin-bottom: 1px;
+}
+
+.aboutheader2 {
+    color: rgb(70, 43, 22);
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 81, 66);
+    font-size: 20px;
+}
+
+.aboutheader3 {
+    color: rgb(70, 43, 22);
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 81, 66);
+    font-size: 20px;
+}
+
+/* .body11{
+    background:  #F6F1D4 ;
+ min-height: 100vh;
+
+
+
+
+
+} */

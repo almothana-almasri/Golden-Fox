@@ -1,0 +1,51 @@
+.favourite_product {
+  min-height: 100vh;
+  background: linear-gradient(to top, rgba(255, 223, 186, 0.8), rgba(255, 223, 186, 0.4));
+}
+
+.ftext1 {
+  padding-top: 50px;
+  /* padding-left: 5%; */
+  text-align: center;
+  font-size: 150%;
+}
+
+
+.p_r_f{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.remove_buttonf {
+  /* position:absolute; */
+  
+  /* background-color: #ff3d33; */
+  color: white;
+  border: none;
+  width: 27px;
+  height: 27px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* margin-left: 90%; */
+  margin-bottom: -10px;
+  /* margin-top: 22px; */
+
+  /* Style on hover */
+  &:hover {
+    /* background-color: #e64129; */
+  
+  }
+}
+
+
+
+/* Style for the Font Awesome icon */
+.remove-buttonfc svg {
+  width: 13px; /* Adjust the icon width as needed */
+  height: 13px; /* Adjust the icon height as needed */
+}

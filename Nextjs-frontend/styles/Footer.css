@@ -1,0 +1,133 @@
+.footer {
+    background-color: #02000E;
+    color: #fff;
+    /* padding: 3rem 0; */
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.footer-resources ul, .footer-links ul, .footer-featured-listings ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-resources li, .footer-links li, .footer-featured-listings li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-resources a, .footer-links a, .footer-featured-listings a {
+  color: #E5C27C;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-resources a:hover, .footer-links a:hover, .footer-featured-listings a:hover {
+  color: #f39c12;
+}
+  
+  .footer-subscribe {
+    max-width: 300px;
+  }
+  
+  .footer-subscribe h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-subscribe input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .footer-subscribe button[type="submit"] {
+    background-color: #E5C27C;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-subscribe button[type="submit"]:hover {
+    background-color: #f39c12;
+  }
+  .footer-social h4 {
+    margin-bottom: 10px;
+  }
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .social-icons li {
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    color: #E5C27C;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #f39c12;
+    transform: scale(1.3);
+  }
+  .footer h4 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-bottom: 1rem;
+    color: #f5dba7;
+}
+/* Add this CSS code to your existing footer.css file */
+
+/* Add this CSS code to your existing footer.css file */
+
+/* Contact Us form styling */
+.footer-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact input[type="email"],
+.footer-contact textarea {
+  padding: 8px; /* Adjust padding to make them smaller */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Adjust font size to make it smaller */
+}
+
+.footer-contact textarea {
+  resize: vertical; /* Allow textarea to be resized vertically */
+}
+
+.footer-contact button[type="submit"] {
+  background-color: #E5C27C;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-contact button[type="submit"]:hover {
+  background-color: #f39c12;
+}

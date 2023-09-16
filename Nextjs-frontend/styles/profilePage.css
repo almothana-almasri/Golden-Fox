@@ -1,0 +1,333 @@
+.whole-profile {
+  background: linear-gradient(to top, rgba(255, 223, 186, 0.8), rgba(255, 223, 186, 0.4));
+  overflow: hidden;
+}
+
+.profile-container {
+  background: linear-gradient(to bottom, #ffffff 70%, #E5C27C);
+  color: #02000e;
+  padding: 20px;
+  border: 1px solid #e5c27c;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-products h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-info h2 {
+  color: #02000e;
+}
+
+.profile-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container label {
+  margin-bottom: 10px;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="number"],
+.profile-container select {
+  padding: 8px;
+  border: 1px solid #e5c27c;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.profile-container input[type="file"] {
+  margin-top: 10px;
+}
+
+.profile-container button[type="submit"] {
+  background-color: #e5c27c;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-container button[type="submit"]:hover {
+  background-color: #c9a853;
+}
+
+.login-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-container {
+    padding: 10px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .profile-container label {
+    font-size: 14px;
+  }
+
+  .profile-container input[type="text"],
+  .profile-container input[type="number"],
+  .profile-container select {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .profile-container button[type="submit"] {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}
+
+.user-products ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border: 1px solid #e5c27c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex-grow: 1;
+}
+
+.product-details p {
+  margin: 10px 0;
+}
+
+.user-products li .delete-button {
+  background-color: #FF9999;
+  color: #02000E;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.user-products li .delete-button:hover {
+  background-color: #FF6666;
+}
+
+.user-products li .product-details .productde {
+  background-color: #E5C27C;
+  color: #02000E;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.user-products li .product-details .productde:hover {
+  background-color: #C9A853;
+  text-decoration: underline;
+}
+
+.alert {
+  background-color: #f44336;
+  color: #fddea0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  font-weight: bold;
+}
+
+.alert-success {
+  background-color: #419645;
+  color: #fddea0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  font-weight: bold;
+}
+
+.form-container {
+  background-color: #fff;
+  color: #02000e;
+  padding: 20px;
+  border: 1px solid #e5c27c;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* text-align: center; */
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #c9a853;
+  text-align: center;
+}
+
+.form-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  padding: 8px;
+  border: 1px solid #e5c27c;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 97%;
+  margin-top: 5px;
+}
+
+.form-container select {
+  background-color: #e5c27c;
+  padding: 8px;
+  border: 1px solid #e5c27c;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  /* font-weight: bold; */
+  font-size: 16px;
+}
+
+.form-container input[type="file"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-container button[type="submit"] {
+  background-color: #e5c27c;
+  color: #02000E;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 17px;
+}
+
+.file-input-label {
+  text-align: center;
+  background-color: #e5c27c;
+  color: #02000E;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #ffb700;
+}
+
+.form-container select:hover {
+  background-color: #ffb700;
+}
+
+.form-container input[type="file"] {
+  display: none;
+}
+
+.file-input-label:hover {
+  background-color: #ffb700;
+}
+
+.file-input {
+  display: none;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    padding: 10px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .form-container label {
+    font-size: 14px;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container select {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .form-container button[type="submit"] {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}
+
+.welcome-message {
+  /* background: linear-gradient(to bottom, rgba(255, 223, 186, 0.8), rgba(255, 223, 186, 0.4)); */
+  color: #02000e;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.welcome-message h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #c9a853;
+}
+
+.welcome-message p {
+  margin: 10px 0;
+}
+
+.welcome-message .profile-image {
+  max-width: 100px;
+  /* Adjust the image size */
+  margin: 0 auto 10px;
+  /* Center the image and add spacing */
+}
